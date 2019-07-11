@@ -20,7 +20,7 @@ de = rand(1..6)
 			mar = mar 
 			print "VOUS ETES SUR LA MARCHE #{mar} \n"
 			jet = jet + 1
-		elsif de	== 5 || de == 6
+		else de	== 5 || de == 6
 			print "VOUS AVANCEZ D'UNE MARCHE \n"
 			mar = mar + 1
 			print "VOUS ETES SUR LA MARCHE #{mar} \n"
