@@ -20,6 +20,6 @@ def perform
     signup
     login
     welcome_screen
-    end
+end
 
 perform
