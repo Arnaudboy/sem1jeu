@@ -28,7 +28,6 @@ de = rand(1..6)
 
 		end
 		if mar == 10
-			jet = jet + 1
 			print "VOUS AVEZ GAGNE EN #{jet} jets\n"	
 		end
 	end
@@ -44,7 +43,4 @@ def aveage_finish_time
 	end
 	print "MOYENNE #{tab / 100}\n"
 end
-
-jeu
-
 aveage_finish_time
