@@ -4,10 +4,11 @@ def half_pyramid
 puts "Entrez un nombre entre 1 et 25"
 etage = gets.chomp.to_i
 
-if etage > 25
+until etage < 25
 		puts "Veuillez choisir un nombre entre 1 et 25"
-
-else
+        etage = gets.chomp.to_i
+end
+if
 
 	etage.downto(1) do |n|
   	(n - 1).times do
@@ -18,7 +19,7 @@ else
    	 print '#'
  	 end
 
-  	puts ''
+  	puts 
 	end
 end	
 
@@ -57,9 +58,11 @@ i = gets.chomp.to_i
 cpt = 1 
 
 
-    if i % 2 == 0
+    while i % 2 == 0
         puts "Veuillez entrer une variable impaire ! Bordel !"
-    else 
+        i = gets.chomp.to_i
+    end
+    if 
     	a = (i /2) 
     	b = (i / 2) + 1  
     
